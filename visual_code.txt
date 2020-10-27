@@ -1,33 +1,41 @@
 {
-    "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false,
-    "auto-close-tag.enableAutoCloseTag": true,
-    "editor.rulers": [120],
-    "auto-close-tag.activationOnLanguage": [
-        "xml",
-        "php",
-        "blade",
-        "javascript",
-        "javascriptreact",
-        "typescript",
-        "typescriptreact",
-        "vue",
-        "HTML (Eex)"
-    ],
-    "emmet.includeLanguages": {
-        "blade": "html"
-    },    
-    "emmet.triggerExpansionOnTab": true, // enable tab to expanse emmet tags
-    "blade.format.enable": true,
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true
-    },
-    "editor.insertSpaces": true,
-    "editor.tabSize": 4,
-    "workbench.colorTheme": "Atom One Dark",
-    "workbench.iconTheme": "material-icon-theme",
-    "dateTime.showAMPM": true,
-    "dateTime.use24HourClock": false,
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "explorer.confirmDragAndDrop": false
+  // disable windows telemetry    
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  // Fonts config
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  // limit
+  "editor.rulers": [
+    // 80,
+    120
+  ],
+  "dateTime.showAMPM": true,
+  "dateTime.use24HourClock": false,
+  "workbench.colorTheme": "Atom One Dark",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  // eslint
+  "eslint.run": "onSave",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "tabnine.experimentalAutoImports": true,
+  // Essa opção compacta pastas filhos e pais em um
+  "explorer.compactFolders": false,
+  // Seleciona a linha apenas no canto esquerdo
+  "editor.renderLineHighlight": "gutter",
+  // Permite a visualização da pasta onde o arquivo aberto está
+  "workbench.editor.labelFormat": "short",
+  // Ignora as recomendações de extensão do próprio navegador
+  "extensions.ignoreRecommendations": true,
+  // Mostra a arvore de pastas
+  "breadcrumbs.enabled": true,
+  // Evita que o editor adicione cores em variáveis de acordo com seu tipo de
+  "editor.semanticHighlighting.enabled": false,
+  // Active Material Icon
+  "workbench.iconTheme": "material-icon-theme",
 }
