@@ -21,7 +21,7 @@
   "eslint.run": "onSave",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll.eslint": true
   },
   "tabnine.experimentalAutoImports": true,
   // Essa opção compacta pastas filhos e pais em um
@@ -38,4 +38,53 @@
   "editor.semanticHighlighting.enabled": false,
   // Active Material Icon
   "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+
+  "emmet.syntaxProfiles": { "javascript": "jxs"},
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  
+  "colorize.enable_search_variables": true,
+  "colorize.colorized_colors": [
+    "HEXA",
+    "ARGB",
+    "BROWSERS_COLORS",
+    "RGB",
+    "HSL"
+  ],
+  "colorize.languages": [
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "css",
+    "html",
+    "php",
+    "csharp",
+    "java",
+    "python"
+  ],
+
+
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock"
+  },
+
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+  },
+  "explorer.confirmDragAndDrop": false,
+  "window.zoomLevel": 0
 }
